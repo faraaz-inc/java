@@ -42,7 +42,7 @@ class Triangle2 extends Figure2 {
 
 public class AbstractClasses {
     public static void main(String[] args) {
-        // Figure2 f = new Figure2(); --> illegal now
+        // Figure2 f = new Figure2(); --> illegal now, as Figure2 is abstract
         Rectangle2 r = new Rectangle2(10, 10);
         Triangle2 t = new Triangle2(10, 10);
         Figure2 ref; // OK, no object is created
